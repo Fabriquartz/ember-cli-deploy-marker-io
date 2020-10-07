@@ -1,7 +1,7 @@
 ember-cli-deploy-marker-io
 ==============================================================================
 
-[Short description of the addon.]
+This plugin integrates the default [Marker.io][1] javascript snippet into your `index.html`
 
 
 Compatibility
@@ -20,11 +20,16 @@ ember install ember-cli-deploy-marker-io
 ```
 
 
-Usage
+Configuration Options
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+### integrateMarker
 
+Defines if the Marker.io snippet should be integrated in the build.
+
+### destinationId
+
+The id of the marker destination you want to use for this deploy.
 
 Contributing
 ------------------------------------------------------------------------------
@@ -36,3 +41,5 @@ License
 ------------------------------------------------------------------------------
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+[1]: https://marker.io/
